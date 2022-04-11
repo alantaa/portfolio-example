@@ -102,3 +102,29 @@ p {
 .appTitle {
   text-align: left;
 }
+
+@media (max-width: 576px) {
+  body {
+    margin-bottom: 100px;
+  }
+  h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 32px;
+    text-align: center !important;
+  }
+  p {
+    text-align: center;
+  }
+
+  .image {
+    margin-bottom: 1.5rem !important;
+  }
+  .website-link {
+    display: block;
+    text-align: center;
+    margin: 0px 20px;
+  }
+}
