@@ -79,7 +79,6 @@ p {
 }
 
 .about-paragraphs {
-  display: flex;
   margin: 30px 10px;
   text-align: center;
 }
